@@ -143,7 +143,7 @@ Is there a max processing time limit?
 > Yes, tentatively 30 minutes to run the test data.
 
 Is there a maximum size limit for the program?
-> Yes, tentatively 1 MB for `src` and 1 GB for your checkpoint
+> Yes, tentatively 1 MB for `src` and ~3 GB for your checkpoint. Your docker image can be ~5 GB.
 
 What does it mean the astronaut "speaks at least one human language"? Will system support mix language .. like mix of English + a different language?
 > Your program may receive input that is not English. The input may be a mix of English and other languages.
