@@ -128,19 +128,16 @@ You should be able to emulate the grading using the example data by running `bas
 
 ## Questions
 As more questions come in, we will create a FAQ here.
-In the mean time, please post your questions to edStem with the tag `Projects -> 447`.
+In the mean time, please post your questions to edStem with the tag `Projects (447)`.
 
 Can we have 2 or 4 instead of 3 members?
 > We strongly prefer that you have 3 members. If you would really like to have a group of 4, please instead do two groups of 2.
 
-How do we sign up groups?
-> We will send you a google form link. Please have one member in the group fill out the form.
-
 Will we get help in selecting datasets? Could we also get tips on finding good corpora?
 > Not at this time. Choosing and preprocessing your data is a key component of practising NLP in the real world and we would like you to experience it first hand.
 
-Is there a max processing time limit?
-> Yes, tentatively 30 minutes to run the test data.
+Is there a maximum processing time limit?
+> Yes, tentatively 30 minutes to run the test data. We will release the sample size soon, it should be tentatively a few thousand samples.
 
 Is there a maximum size limit for the program?
 > Yes, tentatively 1 MB for `src` and ~3 GB for your checkpoint. Your docker image can be ~5 GB.
@@ -151,5 +148,5 @@ What does it mean the astronaut "speaks at least one human language"? Will syste
 Can test sentences be virtually anything? e.g. they intentionally test robustness
 > Test sentences will not be adversarial. They will be reasonable dialogue utterances.
 
-Do we have unlimited appendix for final report? Such as a 1 page report with a 10 page clarification?
+Do we have an unlimited appendix for the final report, such as a one-page report with a 10-page clarification?
 > No. There will be no appendix.
