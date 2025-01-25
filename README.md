@@ -77,7 +77,7 @@ We will not be doing anything very fancy with Docker.
 In fact, we provide you with a starter `Dockerfile`.
 You should install any dependencies in this Dockerfile you require to perform prediction.
 
-When you submit the project, you must submit a zip file `submit.zip` to Canvas that contains the following:
+You must submit the project to Canvas as a zip file (named without whitespace). Follow the format: `Project447GroupN.zip` where N is your Group no. It should contain the following:
 
 ```
 src  # source code directory for your program
@@ -121,7 +121,8 @@ We will then evaluate your success rate against the heldout answer key using `gr
 Your performance will contain two metrics obtained on the heldout test data, the first being the success rate, the second being the run time.
 Your run time is calculated as the time it takes us to run the `docker run` command.
 
-For reference, the script `submit.sh` will package this example project for submission.
+For reference, the script `submit.sh` will package this example project for submission. Remember to rename your zip file before uploading to Canvas.
+
 For convenience, we have put the command we will likely run to grade your assignment in `grader/grade.sh`.
 You should be able to emulate the grading using the example data by running `bash grader/grade.sh example`, which will write your results to the `output` directory.
 
